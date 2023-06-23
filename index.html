@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Message</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        form {
+            background-color: lightgray;
+            width: 350px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+            padding: 30px;
+            border-radius: 30px;
+        }
+
+        input[type=text]{
+            height: 50px;
+            padding: 10px;
+        }
+        input[type=submit]{
+            height: 30px;
+            /* padding: 10px; */
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <form action="http://localhost:8081/set_message" method="GET">
+        <input type="text" name="message" id="" placeholder="Write Message Here"> 
+        <input type="submit" value="Set Message">
+    </form>
+</body>
+</html>

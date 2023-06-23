@@ -1,0 +1,17 @@
+{
+  "name": "interact_with_blockchain",
+  "version": "1.0.0",
+  "description": "will made API and using this api we'll inreract with blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sameer",
+  "license": "ISC",
+  "dependencies": {
+    "aptos": "^1.7.2",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.9",
+    "web3": "^1.9.0"
+  }
+}
